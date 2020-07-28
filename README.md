@@ -12,3 +12,11 @@
 + calculate.cpp: calculate the offline upper-bound gamma for an instance(use ***long double***)
 + details.cpp: give corresponding algorithm for the upper-bound gamma of instances (1,2)+n*[(1,3), (1,2)] (use ***fraction***)
 + find.cpp: randomly create instances and find the best upper-bound among them(use ***long double***)
+
+### 0725
+Implementation of checking performance of an algorithm on a case. The algorithm should be contained in some \*.h and the case should be input. In \*.h, you need to implement
++ the definition of State
++ operator *<* and *!=* for State
++ function algorithm 
+
+You only need to compile *main.cpp* to run the program.
