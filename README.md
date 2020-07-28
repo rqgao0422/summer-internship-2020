@@ -15,8 +15,8 @@
 
 ### 0725
 Implementation of checking performance of an algorithm on a case. The algorithm should be contained in some \*.h and the case should be input. In \*.h, you need to implement
-+ the definition of State
++ the definition of State, which contains the state variables used in your algorithm
 + operator *<* and *!=* for State
-+ function algorithm 
++ function algorithm, which returns all the possible runs along with their probabilities
 
 You only need to compile *main.cpp* to run the program.
